@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Forms allow users to input data and send it to a server -->
+    <form>
+        <!-- Use <input type="text"> to get a single line of text from the user -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <!-- <label> is used to describe the input -->
+        <!-- The for attribute should match the input’s id -->
+        <br>
+        <!-- Password : This hides the characters as you type -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+        <br>
+        <!-- Placeholder Text -->
+        <!-- You can show a hint inside the input using the placeholder attribute -->
+        <input type="text" placeholder="Enter your name">
+        <br>    
+    </form>
+</body>
+
+</html>
